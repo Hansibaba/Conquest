@@ -1,0 +1,1 @@
+ds_grid_destroy(world_grid_height);
