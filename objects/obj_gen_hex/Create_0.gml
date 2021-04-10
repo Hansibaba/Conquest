@@ -6,17 +6,17 @@ seedtemp = (seedocean/651984849810981)*10226465481951
 x = 0;
 y=0;
 
-octaves =2;
-freq = 4;
+octaves =8;
+freq = 12;
 sea_level = 100;
-max_altitude = 200;
+max_altitude = 180;
 spriacity = 3; //must be odd
 
 hex_width = 132;
 hex_height = 116;
 
-world_width = 20;
-world_height = 20;
+world_width = 100;
+world_height = 100;
 
 xx = 0;
 yy = 0;
@@ -32,8 +32,9 @@ for(yyy = 0; yyy < world_height; yyy++)
 	{
 		for(xxx = 0; xxx < world_width; xxx++)
 		{
-			var height = (noise(xxx,yyy,freq,octaves,seedocean)*127)+128;
+			var height = (noise(xxx*0.01,yyy*0.01,freq,octaves,seedocean)*127)+128;
 			show_debug_message(height);
+			
 			ds_grid_set(world_grid_height,xxx,yyy,height);
 		}
 	}

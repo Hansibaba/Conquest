@@ -9,22 +9,22 @@ value = ds_grid_get(world_grid_height,xx,yy);
 
 if value < 256
 {
-	color = 255;
+	color = make_color_hsv(85,0,90);
 }
 
 
-if value < 170
+if value < max_altitude
 {
-	color = 190;
+	color = make_color_hsv(85,125,125);
 }
 
-if value < 85
+if value < sea_level
 {
-	color = 140
+	color = make_color_hsv(140,125,125);
 }
 
 
 
-return make_color_hsv(color,150,150);
+return color;
 
 }

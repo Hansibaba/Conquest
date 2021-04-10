@@ -1,27 +1,25 @@
-while yy/hex_height < world_height
+for(yy = 0; yy < world_height; yy++)
 {
-	while xx/hex_width < world_width
+	for(xx = 0; xx < world_width; xx++)
 	{
 		if is_odd == 0
 		{
-			draw_sprite_ext(spr_hex,0,xx,yy,1,1,0,tilecolor(xx*hex_width,yy*hex_height),1);
-			xx += hex_width-(hex_height/3.625)
+			draw_sprite_ext(spr_hex,0,(xx)*((hex_width*(3/4))),yy*(hex_height),1,1,0,tilecolor(xx,yy),1);
+			//hex_width-(hex_height/3.625)
 			is_odd = 1;
 			
-			if ds_grid_get(world_grid_height,xx,yy) > 255
+			/*if ds_grid_get(world_grid_height,xx,yy) > 255
 			{
 				draw_text(xx,yy,"funny");	
-			}
+			}*/
 		}
 		else
 		{
-			draw_sprite_ext(spr_hex,0,xx,yy+((hex_height/2)),1,1,0,tilecolor(xx*hex_width,yy*hex_height),1);
-			xx += hex_width-(hex_height/3.625)
+			draw_sprite_ext(spr_hex,0,((xx))*((hex_width*(3/4))),((yy*(hex_height))+hex_height/2),1,1,0,tilecolor(xx,yy),1);
+			//hex_width-(hex_height/3.625)
 			is_odd = 0;
 		}
 	}
-	yy += hex_height
-	xx = 0;
 	is_odd = 0;
 }
 xx = 0;

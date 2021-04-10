@@ -11,7 +11,7 @@
     {"id":{"name":"noise","path":"scripts/noise/noise.yy",},"order":0,},
     {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":0,},
     {"id":{"name":"AnimationCurve1","path":"animcurves/AnimationCurve1/AnimationCurve1.yy",},"order":0,},
-    {"id":{"name":"tilecolor","path":"scripts/tilecolor/tilecolor.yy",},"order":4,},
+    {"id":{"name":"tilecolorheight","path":"scripts/tilecolorheight/tilecolorheight.yy",},"order":4,},
     {"id":{"name":"spr_hex","path":"sprites/spr_hex/spr_hex.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
