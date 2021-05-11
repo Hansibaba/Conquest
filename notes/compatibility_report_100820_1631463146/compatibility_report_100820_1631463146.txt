@@ -1,0 +1,5 @@
+Resource name collision 'random_noise' already exists, renamed to 'random_noise_scripts'
+Converting GML script: ${project_dir}\scripts\random_noise_scripts\random_noise_scripts.gml
+Converted description /// @description random_noise(x, y, seed)/// @param x
+/// @param  y
+/// @param  seed

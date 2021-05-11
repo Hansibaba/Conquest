@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Value noise",
+    "path": "folders/Scripts/CivScripts/Value noise.yy",
   },
   "resourceVersion": "1.0",
-  "name": "getSeed",
+  "name": "getseed",
   "tags": [],
   "resourceType": "GMScript",
 }
