@@ -9,8 +9,111 @@ hex_height = 110;
 world_width = 100;
 world_height = world_width;
 
+//grenadier
+grenadier_mpcost = 10;
+grenadier_pcost = 20;
+grenadier_ecost = 20;
+
+//lmg
+lmg_mpcost = 20;
+lmg_pcost = 20;
+lmg_mecost = 20;
+lmg_ecost = 20;
+
+//mortar
+mortar_mpcost = 20;
+mortar_pcost = 20;
+mortar_mecost = 20;
+mortar_ecost = 20;
+
+//sniper
+sniper_mpcost = 20;
+sniper_pcost = 20;
+sniper_ecost = 20;
+
+//diver
+diver_mpcost = 20;
+diver_pcost = 20;
+diver_ecost = 20;
+
+//tank
+tank_mpcost = 20;
+tank_pcost = 20;
+tank_mecost = 20;
+tank_ecost = 20;
+
+//armored car
+car_mpcost = 20;
+car_pcost = 20;
+car_mecost = 20;
+car_ecost = 20;
+
+//aa tank
+aa_tank_mpcost = 20;
+aa_tank_pcost = 20;
+aa_tank_mecost = 20;
+aa_tank_ecost = 20;
+
+//truck
+truck_mpcost = 20;
+truck_pcost = 20;
+truck_mecost = 20;
+truck_ecost = 20;
+
+//carrier
+carrier_mpcost = 20;
+carrier_pcost = 20;
+carrier_mecost = 20;
+carrier_ecost = 20;
+
+//corvette
+corvette_mpcost = 20;
+corvette_pcost = 20;
+corvette_mecost = 20;
+corvette_ecost = 20;
+
+//cruiser
+cruiser_mpcost = 20;
+cruiser_pcost = 20;
+cruiser_mecost = 20;
+cruiser_ecost = 20;
+
+//frigate
+frigate_mpcost = 20;
+frigate_pcost = 20;
+frigate_mecost = 20;
+frigate_ecost = 20;
+
+//destroyer
+destroyer_mpcost = 20;
+destroyer_pcost = 20;
+destroyer_mecost = 20;
+destroyer_ecost = 20;
+
+//bomber
+bomber_mpcost = 20;
+bomber_pcost = 20;
+bomber_mecost = 20;
+bomber_ecost = 20;
+
+//fighter
+fighter_mpcost = 20;
+fighter_pcost = 20;
+fighter_mecost = 20;
+fighter_ecost = 20;
+
+//straifer
+straifer_mpcost = 20;
+straifer_pcost = 20;
+straifer_mecost = 20;
+straifer_ecost = 20;
+
+
 hex_x = round(mouse_x/(hex_width*3/4))*(hex_width*3/4)
 hex_y = ((round(mouse_y/hex_height))*hex_height)
+
+world_x = round(mouse_x/(hex_width*3/4))
+world_y = round(mouse_y/hex_height)
 
 if IsEven((hex_x/(hex_width*(3/4))))
 {
@@ -52,7 +155,7 @@ for(yy = 0; yy < world_width; yy++)
 
 unit_type = 1;
 
-energy = 63;
-production = 84;
-population = 97;
-manpower = 53;
+energy = 100;
+metal = 100;
+population = 100; //this is the population slots still availble, as units are made, this number goes down
+manpower = 100;

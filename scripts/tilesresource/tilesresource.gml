@@ -6,43 +6,107 @@ yy = argument[1];
 
 resource = ds_grid_get(world_grid_resource,xx,yy);
 height = ds_grid_get(world_grid_height,xx,yy);
+temp = ds_grid_get(world_grid_temp,xx,yy);
 
-if (height < max_altitude) && (height > sea_level)
+resource_tile = spr_undefined
+
+if temp > 5 
 {
-	
-	resource_tile = spr_undefined;
-	
-	if (resource > 230) && (resource < 256)
+	if (height < max_altitude) && (height > sea_level)
 	{
-		resource_tile = spr_uranium;
-	}
+	
+		///Uranium
+	
+		if rarity(240,1,resource)
+		{
+			resource_tile = spr_uranium;
+		}
+	
+		if rarity(90,0.1,resource)
+		{
+			resource_tile = spr_uranium;
+		}
+	
+		if rarity(175,0.1,resource)
+		{
+			resource_tile = spr_uranium;
+		}
+	
+		///Natural Gas
 
-	if (resource > 200) && (resource < 216)
-	{
-		resource_tile = spr_natural_gas;
-	}
+		if rarity(150,0.2,resource)
+		{
+			resource_tile = spr_natural_gas;
+		}
+	
+		if rarity(50,0.2,resource)
+		{
+			resource_tile = spr_natural_gas;
+		}
+	
+		if rarity(200,0.2,resource)
+		{
+			resource_tile = spr_natural_gas;
+		}
+	
+		///Coal
 
-	if (resource > 140) && (resource < 150)
-	{
-		resource_tile = spr_coal;
+		if rarity(220,1,resource)
+		{
+			resource_tile = spr_coal;
+		}
+	
+		if rarity(120,1,resource)
+		{
+			resource_tile = spr_coal;
+		}
+	
+		///Geothermal
+	
+		if rarity(80,0.2,resource)
+		{
+			resource_tile = spr_geothermal;
+		}
+	
+		if rarity(130,0.2,resource)
+		{
+			resource_tile = spr_geothermal;
+		}
+	
+		///Oil
+	
+		if rarity(20,2,resource)
+		{
+			resource_tile = spr_oil;
+		}
+	
 	}
-	
-	
-	if (resource > 70) && (resource < 80)
+	else
 	{
-		resource_tile = spr_geothermal;
+		if height < max_altitude
+		{
+		
+			if rarity(50,0.5,resource)
+			{
+				resource_tile = spr_oil;
+			}
+		
+			if rarity(100,0.5,resource)
+			{
+				resource_tile = spr_oil;
+			}
+		
+			if rarity(150,0.5,resource)
+			{
+				resource_tile = spr_oil;	
+			}
+		
+			if rarity(200,0.5,resource)
+			{
+				resource_tile = spr_oil;	
+			}
+		}
 	}
-	
-	
-	if (resource > 0) && (resource < 30)
-	{
-		resource_tile = spr_oil;
-	}
-	
-}
-else
-{
-	resource_tile = spr_undefined;	
 }
 
 return resource_tile;
