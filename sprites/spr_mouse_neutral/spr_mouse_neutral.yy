@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 48,
-  "bbox_right": 79,
-  "bbox_top": 48,
-  "bbox_bottom": 79,
+  "bbox_left": 51,
+  "bbox_right": 76,
+  "bbox_top": 58,
+  "bbox_bottom": 69,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"68a8ac17-0b49-44b4-a17d-c1139d3e6fe8","path":"sprites/spr_mouse_neutral/spr_mouse_neutral.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"68a8ac17-0b49-44b4-a17d-c1139d3e6fe8","path":"sprites/spr_mouse_neutral/spr_mouse_neutral.yy",},"LayerId":{"name":"f5624488-74f7-4c1f-9070-d272ae06573b","path":"sprites/spr_mouse_neutral/spr_mouse_neutral.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"68a8ac17-0b49-44b4-a17d-c1139d3e6fe8","path":"sprites/spr_mouse_neutral/spr_mouse_neutral.yy",},"LayerId":{"name":"f1be45de-0ee3-47ef-a01d-90037525ede1","path":"sprites/spr_mouse_neutral/spr_mouse_neutral.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_mouse_neutral","path":"sprites/spr_mouse_neutral/spr_mouse_neutral.yy",},"resourceVersion":"1.0","name":"68a8ac17-0b49-44b4-a17d-c1139d3e6fe8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -44,7 +45,7 @@
             {"id":"55af0071-8323-4b52-8f1b-5fca184e9ac9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68a8ac17-0b49-44b4-a17d-c1139d3e6fe8","path":"sprites/spr_mouse_neutral/spr_mouse_neutral.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -65,7 +66,8 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f5624488-74f7-4c1f-9070-d272ae06573b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"f1be45de-0ee3-47ef-a01d-90037525ede1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":35.0,"displayName":"default","resourceVersion":"1.0","name":"f5624488-74f7-4c1f-9070-d272ae06573b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Mouse",

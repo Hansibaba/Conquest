@@ -1,4 +1,6 @@
-sped = 20;
+gui_scale = 1;
+
+sped = 5;
 
 xx = 0;
 yy = 0;
@@ -9,104 +11,106 @@ hex_height = 110;
 world_width = 100;
 world_height = world_width;
 
+team = 1;
+
 //grenadier
-grenadier_mpcost = 10;
-grenadier_pcost = 20;
-grenadier_ecost = 20;
+grenadier_mpcost = 5;
+grenadier_pcost = 5;
+grenadier_ecost = 5;
 
 //lmg
-lmg_mpcost = 20;
-lmg_pcost = 20;
-lmg_mecost = 20;
-lmg_ecost = 20;
+lmg_mpcost = 5;
+lmg_pcost = 5;
+lmg_mecost = 5;
+lmg_ecost = 5;
 
 //mortar
-mortar_mpcost = 20;
-mortar_pcost = 20;
-mortar_mecost = 20;
-mortar_ecost = 20;
+mortar_mpcost = 5;
+mortar_pcost = 5;
+mortar_mecost = 5;
+mortar_ecost = 5;
 
 //sniper
-sniper_mpcost = 20;
-sniper_pcost = 20;
-sniper_ecost = 20;
+sniper_mpcost = 5;
+sniper_pcost = 5;
+sniper_ecost = 5;
 
 //diver
-diver_mpcost = 20;
-diver_pcost = 20;
-diver_ecost = 20;
+diver_mpcost = 5;
+diver_pcost = 5;
+diver_ecost = 5;
 
 //tank
-tank_mpcost = 20;
-tank_pcost = 20;
-tank_mecost = 20;
-tank_ecost = 20;
+tank_mpcost = 5;
+tank_pcost = 5;
+tank_mecost = 5;
+tank_ecost = 5;
 
 //armored car
-car_mpcost = 20;
-car_pcost = 20;
-car_mecost = 20;
-car_ecost = 20;
+car_mpcost = 5;
+car_pcost = 5;
+car_mecost = 5;
+car_ecost = 5;
 
 //aa tank
-aa_tank_mpcost = 20;
-aa_tank_pcost = 20;
-aa_tank_mecost = 20;
-aa_tank_ecost = 20;
+aa_tank_mpcost = 5;
+aa_tank_pcost = 5;
+aa_tank_mecost = 5;
+aa_tank_ecost = 5;
 
 //truck
-truck_mpcost = 20;
-truck_pcost = 20;
-truck_mecost = 20;
-truck_ecost = 20;
+truck_mpcost = 5;
+truck_pcost = 5;
+truck_mecost = 5;
+truck_ecost = 5;
 
 //carrier
-carrier_mpcost = 20;
-carrier_pcost = 20;
-carrier_mecost = 20;
-carrier_ecost = 20;
+carrier_mpcost = 5;
+carrier_pcost = 5;
+carrier_mecost = 5;
+carrier_ecost = 5;
 
 //corvette
-corvette_mpcost = 20;
-corvette_pcost = 20;
-corvette_mecost = 20;
-corvette_ecost = 20;
+corvette_mpcost = 5;
+corvette_pcost = 5;
+corvette_mecost = 5;
+corvette_ecost = 5;
 
 //cruiser
-cruiser_mpcost = 20;
-cruiser_pcost = 20;
-cruiser_mecost = 20;
-cruiser_ecost = 20;
+cruiser_mpcost = 5;
+cruiser_pcost = 5;
+cruiser_mecost = 5;
+cruiser_ecost = 5;
 
 //frigate
-frigate_mpcost = 20;
-frigate_pcost = 20;
-frigate_mecost = 20;
-frigate_ecost = 20;
+frigate_mpcost = 5;
+frigate_pcost = 5;
+frigate_mecost = 5;
+frigate_ecost = 5;
 
 //destroyer
-destroyer_mpcost = 20;
-destroyer_pcost = 20;
-destroyer_mecost = 20;
-destroyer_ecost = 20;
+destroyer_mpcost = 5;
+destroyer_pcost = 5;
+destroyer_mecost = 5;
+destroyer_ecost = 5;
 
 //bomber
-bomber_mpcost = 20;
-bomber_pcost = 20;
-bomber_mecost = 20;
-bomber_ecost = 20;
+bomber_mpcost = 5;
+bomber_pcost = 5;
+bomber_mecost = 5;
+bomber_ecost = 5;
 
 //fighter
-fighter_mpcost = 20;
-fighter_pcost = 20;
-fighter_mecost = 20;
-fighter_ecost = 20;
+fighter_mpcost = 5;
+fighter_pcost = 5;
+fighter_mecost = 5;
+fighter_ecost = 5;
 
 //straifer
-straifer_mpcost = 20;
-straifer_pcost = 20;
-straifer_mecost = 20;
-straifer_ecost = 20;
+straifer_mpcost = 5;
+straifer_pcost = 5;
+straifer_mecost = 5;
+straifer_ecost = 5;
 
 
 hex_x = round(mouse_x/(hex_width*3/4))*(hex_width*3/4)
@@ -129,6 +133,9 @@ if is_odd = 1
 		hex_y = ((round((mouse_y+hex_height/2)/hex_height))*hex_height)-(hex_height/2)
 }
 
+instance_create_layer(x,y,"units",obj_mouse);
+
+obj_mouse.sprite = spr_mouse_neutral;
 
 max_fov = 15000;
 min_fov = 100;
