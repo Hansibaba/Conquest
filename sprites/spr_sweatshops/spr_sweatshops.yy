@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 32,
-  "bbox_right": 95,
+  "bbox_left": 0,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 127,
+  "bbox_bottom": 126,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -27,6 +27,8 @@
     {"compositeImage":{"FrameId":{"name":"61d18c23-1b55-4c62-ad72-ff25b5ddb420","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"61d18c23-1b55-4c62-ad72-ff25b5ddb420","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"LayerId":{"name":"b0d56c03-a61e-4841-95ec-86b18125b97c","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"61d18c23-1b55-4c62-ad72-ff25b5ddb420","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"LayerId":{"name":"dabeb767-94ae-4733-9606-a8ec1835da7c","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"61d18c23-1b55-4c62-ad72-ff25b5ddb420","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"LayerId":{"name":"","path":"",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"61d18c23-1b55-4c62-ad72-ff25b5ddb420","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"LayerId":{"name":"6557bf52-869c-4763-b9f9-b4ba6c516829","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_sweatshops","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"resourceVersion":"1.0","name":"61d18c23-1b55-4c62-ad72-ff25b5ddb420","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -45,7 +47,7 @@
             {"id":"0c8c9e4a-0b7a-43b0-8b7b-b2d8e874fb77","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61d18c23-1b55-4c62-ad72-ff25b5ddb420","path":"sprites/spr_sweatshops/spr_sweatshops.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,8 +68,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"b0d56c03-a61e-4841-95ec-86b18125b97c","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"dabeb767-94ae-4733-9606-a8ec1835da7c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1 (2)","resourceVersion":"1.0","name":"6557bf52-869c-4763-b9f9-b4ba6c516829","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "China",

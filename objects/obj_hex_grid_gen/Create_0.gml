@@ -10,7 +10,7 @@ y=0;
 
 octaves =8;
 freq = 12;
-sea_level = 160;
+sea_level = 100;
 max_altitude = 200;
 spriacity = 5; //must be odd
 
@@ -18,7 +18,7 @@ resource_octaves =8;
 resource_freq = 16;
 
 world_width = 100;
-world_height = world_width;
+world_height = world_width/2;
 
 hex_width = 128;
 hex_height = 110;

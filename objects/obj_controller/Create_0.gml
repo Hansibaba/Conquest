@@ -1,4 +1,4 @@
-gui_scale = 1;
+gui_scale = 1.1;
 
 sped = 5;
 
@@ -12,6 +12,8 @@ world_width = 100;
 world_height = world_width;
 
 team = 1;
+
+nation = 0; //0-Britain , 1-China, 2-Germany, 3-Japan, 4-Russia, 5-U.S.A, 6-Vietnam
 
 //grenadier
 grenadier_mpcost = 5;

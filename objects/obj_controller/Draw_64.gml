@@ -15,6 +15,9 @@ width = sprite_get_width(spr_in_game_main_ui);
 height = sprite_get_height(spr_in_game_main_ui);
 
 draw_sprite_ext(spr_in_game_main_ui,0,((width)-(width*gui_scale)),((height)-(height*gui_scale)),gui_scale,gui_scale,0,c_white,1);
+
+draw_sprite_ext(spr_in_game_flag_holder,0,0,((height)-(height*gui_scale)),gui_scale,gui_scale,0,c_white,1);
+
 //draw_sprite(spr_lightning,0,870,705);
 draw_set_font(fnt_small);
 color = make_color_hsv(40,190,140)
@@ -38,6 +41,13 @@ color = make_color_hsv(70,255,255)
 draw_text_transformed_color(gui_offset(gui_scale,697,1),gui_offset(gui_scale,644,0),manpower,gui_scale,gui_scale,0,color,color,color,color,1);
 
 draw_sprite_ext(spr_button_attack,0,gui_offset(gui_scale,892,1),gui_offset(gui_scale,636,0),gui_scale,gui_scale,0,c_white,1);
+
+switch(nation)
+{
+	case 0:	
+	draw_sprite_ext(spr_britain_card,0,5,gui_offset(gui_scale,637,0),gui_scale,gui_scale,0,c_white,1);
+	break;
+}
 
 window_set_cursor(cr_none);
 draw_rectangle(gui_offset(gui_scale,892,1),gui_offset(gui_scale,636,0),gui_offset(gui_scale,921,1),gui_offset(gui_scale,665,0),1)

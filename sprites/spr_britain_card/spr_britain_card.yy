@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 32,
-  "bbox_right": 95,
+  "bbox_left": 0,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 127,
+  "bbox_bottom": 126,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -27,6 +27,7 @@
     {"compositeImage":{"FrameId":{"name":"46580f6b-6712-41d4-9896-eb711802b9fc","path":"sprites/spr_britain_card/spr_britain_card.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"46580f6b-6712-41d4-9896-eb711802b9fc","path":"sprites/spr_britain_card/spr_britain_card.yy",},"LayerId":{"name":"4c11ff5b-fe8d-41c8-a06e-e909e76ae58b","path":"sprites/spr_britain_card/spr_britain_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"46580f6b-6712-41d4-9896-eb711802b9fc","path":"sprites/spr_britain_card/spr_britain_card.yy",},"LayerId":{"name":"188c0c17-66ec-4374-b7da-8f0e0fe3bc52","path":"sprites/spr_britain_card/spr_britain_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"46580f6b-6712-41d4-9896-eb711802b9fc","path":"sprites/spr_britain_card/spr_britain_card.yy",},"LayerId":{"name":"d901da84-2e54-4791-9f7c-4d85a2fd26d4","path":"sprites/spr_britain_card/spr_britain_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_britain_card","path":"sprites/spr_britain_card/spr_britain_card.yy",},"resourceVersion":"1.0","name":"46580f6b-6712-41d4-9896-eb711802b9fc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -45,7 +46,7 @@
             {"id":"1b2a5e2b-d545-4d1e-9dcb-fe4d02dc636c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"46580f6b-6712-41d4-9896-eb711802b9fc","path":"sprites/spr_britain_card/spr_britain_card.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,8 +67,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"4c11ff5b-fe8d-41c8-a06e-e909e76ae58b","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4 (2) (2)","resourceVersion":"1.0","name":"188c0c17-66ec-4374-b7da-8f0e0fe3bc52","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4 (2) (2)","resourceVersion":"1.0","name":"d901da84-2e54-4791-9f7c-4d85a2fd26d4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Britain",
